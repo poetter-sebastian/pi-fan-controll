@@ -1,0 +1,8 @@
+sudo rm -r -f /dev/testi2c
+sudo mknod /dev/testi2c c 201 0
+sudo rmmod testmodi2c
+make
+sudo rm /lib/modules/4.19.75-v7+/testmodi2c.ko
+sudo ln ~/sysprog/repo/testmodi2c.ko /lib/modules/4.19.75-v7+
+sudo depmod -a
+sudo modprobe testmodi2c

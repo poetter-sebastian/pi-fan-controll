@@ -1,6 +1,6 @@
 # Fan-controll-for-raspberry-pi
 ---
-![Pi with fan]([https://raw.githubusercontent.com/poetter-sebastian/concurrent-priority-list/main/doc/work.jpg](https://github.com/poetter-sebastian/pi-fan-controll/blob/main/picture.png) "Pi3 with PrismWraith")
+![picture of distribution of duties on a 4 core cpu](https://github.com/poetter-sebastian/pi-fan-controll/blob/main/picture.png "4 core CPU")
 ## Requirements:
 
 ### Hardware
